@@ -1,0 +1,20 @@
+{
+    "name": "Alviña CulqiLink Payments",
+    "version": "19.0.0.1.0",
+    "summary": "CulqiLink integration foundation — webhook confirmation pending verification",
+    "license": "LGPL-3",
+    "author": "Grupo Alviña",
+    "depends": ["sale_management", "account_payment"],
+    "data": [
+        "security/ir.model.access.csv",
+        "security/culqi_link_request_security.xml",
+        "views/payment_provider_views.xml",
+        "views/sale_order_views.xml",
+        "data/payment_provider_data.xml",
+        "data/culqi_link_request_cron.xml",
+    ],
+    "post_init_hook": "post_init_hook",
+    "uninstall_hook": "uninstall_hook",
+    "installable": True,
+    "application": False,
+}

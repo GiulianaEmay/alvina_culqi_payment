@@ -1,0 +1,11 @@
+<odoo noupdate="1">
+    <record id="payment_provider_culqilink" model="payment.provider">
+        <field name="name">CulqiLink (en desarrollo)</field>
+        <field name="code">culqilink</field>
+        <field name="module_id" ref="base.module_alvina_culqi_payment"/>
+        <field name="state">disabled</field>
+        <field name="is_published" eval="False"/>
+        <field name="payment_method_ids"
+               eval="[Command.set([ref('payment.payment_method_card')])]"/>
+    </record>
+</odoo>

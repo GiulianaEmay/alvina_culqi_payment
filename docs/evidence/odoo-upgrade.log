@@ -1,0 +1,78 @@
+2026-10-16 18:39:47,989 4505 INFO ? odoo: Odoo version 19.0
+2026-10-16 18:39:47,989 4505 INFO ? odoo: addons paths: _NamespacePath(['/workspace/culqi-runtime/odoo/odoo/addons', '/workspace/culqi-runtime/odoo-data/addons/19.0', '/workspace/culqi-runtime/odoo/addons', '/workspace/alvina_culqi_payment'])
+2026-10-16 18:39:47,989 4505 INFO ? odoo: database: culqi_test@127.0.0.1:55432
+2026-10-16 18:39:48,241 4505 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:58069
+2026-10-16 18:39:48,266 4505 INFO culqi19_validation odoo.tests.common: Importing test framework
+2026-10-16 18:39:48,279 4505 INFO culqi19_validation odoo.modules.loading: loading 1 modules...
+2026-10-16 18:39:48,282 4505 INFO culqi19_validation odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra)
+2026-10-16 18:39:48,302 4505 INFO culqi19_validation odoo.modules.loading: updating modules list
+2026-10-16 18:39:48,304 4505 INFO culqi19_validation odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-10-16 18:39:49,057 4505 INFO culqi19_validation odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Alviña CulqiLink Payments'] to user __system__ #1 via n/a
+2026-10-16 18:39:49,057 4505 INFO culqi19_validation odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Alviña CulqiLink Payments'] to user __system__ #1 via n/a
+2026-10-16 18:39:49,650 4505 INFO culqi19_validation odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a
+2026-10-16 18:39:49,667 4505 INFO culqi19_validation odoo.modules.loading: loading 57 modules...
+2026-10-16 18:39:50,021 4505 INFO culqi19_validation odoo.modules.loading: Loading module alvina_culqi_payment (56/57)
+2026-10-16 18:39:50,137 4505 INFO culqi19_validation odoo.registry: module alvina_culqi_payment: creating or updating database tables
+2026-10-16 18:39:50,152 4505 WARNING culqi19_validation odoo.addons.base.models.ir_model: Two fields (culqi_request_id, culqi_request_ids) of sale.order() have the same label: Culqi Request. [Modules: alvina_culqi_payment and alvina_culqi_payment]
+2026-10-16 18:39:50,212 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/security/ir.model.access.csv
+2026-10-16 18:39:50,218 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/security/culqi_link_request_security.xml
+2026-10-16 18:39:50,232 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/views/payment_provider_views.xml
+2026-10-16 18:39:50,255 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/views/sale_order_views.xml
+2026-10-16 18:39:50,296 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/data/payment_provider_data.xml
+2026-10-16 18:39:50,297 4505 INFO culqi19_validation odoo.modules.loading: loading alvina_culqi_payment/data/culqi_link_request_cron.xml
+2026-10-16 18:39:50,450 4505 INFO culqi19_validation odoo.modules.loading: Module alvina_culqi_payment loaded in 0.43s, 205 queries (+205 other)
+2026-10-16 18:39:50,454 4505 INFO culqi19_validation odoo.modules.loading: 57 modules loaded in 0.79s, 205 queries (+205 extra)
+2026-10-16 18:39:50,676 4505 INFO culqi19_validation odoo.registry: verifying fields for every extended model
+2026-10-16 18:39:50,680 4505 WARNING culqi19_validation odoo.addons.base.models.ir_model: Two fields (culqi_request_id, culqi_request_ids) of sale.order() have the same label: Culqi Request. [Modules: alvina_culqi_payment and alvina_culqi_payment]
+2026-10-16 18:39:50,994 4505 INFO culqi19_validation odoo.modules.loading: Modules loaded.
+2026-10-16 18:39:51,005 4505 INFO culqi19_validation odoo.registry: Registry changed, signaling through the database
+2026-10-16 18:39:51,006 4505 INFO culqi19_validation odoo.registry: Registry loaded in 2.764s
+2026-10-16 18:39:51,006 4505 INFO culqi19_validation odoo.service.server: Starting post tests
+2026-10-16 18:39:53,143 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_amount_and_company_mismatch ...
+2026-10-16 18:39:53,146 4505 INFO culqi19_validation odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module.
+2026-10-16 18:39:53,177 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_binding_cannot_be_shared_between_companies ...
+2026-10-16 18:39:53,337 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_duplicate_confirmation_calls_postprocess_once ...
+2026-10-16 18:39:53,373 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_invoice_reconciled_by_native_accounting ...
+2026-10-16 18:39:53,720 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_native_payment_is_posted_once ...
+2026-10-16 18:39:53,861 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_rejected_payment ...
+2026-10-16 18:39:53,892 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_release_gate ...
+2026-10-16 18:39:53,908 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_release_gate_also_blocks_background_work ...
+2026-10-16 18:39:53,914 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_timeout_and_credentials ...
+2026-10-16 18:39:53,948 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_verified_success_can_recover_error ...
+2026-10-16 18:39:54,102 4505 INFO culqi19_validation odoo.addons.base.models.ir_attachment: filestore gc 3 checked, 3 removed
+2026-10-16 18:39:55,817 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_changed_balance_blocks_before_post ...
+2026-10-16 18:39:55,915 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_interrupted_attempt_is_never_resubmitted ...
+2026-10-16 18:39:55,988 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_sales_user_queues_without_payment_model_write_access ...
+2026-10-16 18:39:56,056 4505 INFO culqi19_validation odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: write, uid: 27, model: alvina.culqi.link.request
+2026-10-16 18:39:56,059 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_second_request_for_same_order_rejected ...
+2026-10-16 18:39:56,128 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_timeout_is_uncertain_without_retry ...
+2026-10-16 18:39:56,206 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_valid_link_saved_and_shareable ...
+2026-10-16 18:39:56,292 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_worker_cannot_run_in_http_context ...
+2026-10-16 18:39:56,295 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_zero_and_negative_amounts_rejected ...
+2026-10-16 18:39:56,393 4505 INFO culqi19_validation odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 4 removed
+2026-10-16 18:39:56,646 4505 INFO culqi19_validation odoo.addons.auth_signup.models.res_users: Signup email sent for user <culqi_restricted_sales> to <c.c@example.com>
+2026-10-16 18:39:56,652 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiSecurity.test_cross_company_order_cannot_queue_a_request ...
+2026-10-16 18:39:56,732 4505 INFO culqi19_validation odoo.addons.base.models.ir_rule: Access Denied by record rules for operation: write on record ids: [10], uid: 28, model: sale.order
+2026-10-16 18:39:56,738 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiSecurity.test_sales_user_cannot_read_binding_or_check_credentials ...
+2026-10-16 18:39:56,743 4505 INFO culqi19_validation odoo.models: Access Denied by ACLs for operation: read, uid: 28, model: payment.provider, field: culqi_credential_env
+2026-10-16 18:39:56,750 4505 INFO culqi19_validation odoo.addons.base.models.ir_attachment: filestore gc 1 checked, 1 removed
+2026-10-16 18:39:56,751 4505 INFO culqi19_validation odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiConcurrentAccounting.test_two_cursors_create_one_posted_payment ...
+2026-10-16 18:39:56,945 4505 ERROR ? odoo.sql_db: bad query: b'SELECT id FROM payment_transaction WHERE id = 29 FOR UPDATE'
+ERROR: could not serialize access due to concurrent update
+
+2026-10-16 18:39:56,997 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.move.line records with IDs: [37, 38]
+2026-10-16 18:39:57,023 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.move records with IDs: [19]
+2026-10-16 18:39:57,033 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.payment records with IDs: [11]
+2026-10-16 18:39:57,037 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted payment.transaction records with IDs: [29]
+2026-10-16 18:39:57,041 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted payment.provider records with IDs: [52]
+2026-10-16 18:39:57,048 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.payment.method.line records with IDs: [46, 47, 48]
+2026-10-16 18:39:57,065 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.journal records with IDs: [53]
+2026-10-16 18:39:57,082 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted res.partner records with IDs: [63]
+2026-10-16 18:39:57,099 4505 INFO culqi19_validation odoo.models.unlink: User #1 deleted account.account records with IDs: [350, 351, 352]
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.service.server: 21 post-tests in 6.10s, 8541 queries
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.tests.stats: alvina_culqi_payment: 29 tests 6.10s 8541 queries
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.tests.result: 0 failed, 0 error(s) of 21 tests when loading database 'culqi19_validation'
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.service.server: Initiating shutdown
+2026-10-16 18:39:57,105 4505 INFO culqi19_validation odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-10-16 18:39:57,262 4505 INFO culqi19_validation odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections

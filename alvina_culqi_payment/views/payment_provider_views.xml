@@ -1,0 +1,16 @@
+<odoo>
+    <record id="provider_form_culqilink" model="ir.ui.view">
+        <field name="name">payment.provider.culqilink</field>
+        <field name="model">payment.provider</field>
+        <field name="inherit_id" ref="payment.payment_provider_form"/>
+        <field name="arch" type="xml">
+            <page name="credentials" position="inside">
+                <group invisible="code != 'culqilink'" groups="base.group_system">
+                    <div class="alert alert-warning" role="status">Integration under development. Real payments and webhooks are disabled.</div>
+                    <field name="culqi_credential_env"/>
+                    <button name="action_culqi_check_connection" type="object" string="Check Culqi connection"/>
+                </group>
+            </page>
+        </field>
+    </record>
+</odoo>

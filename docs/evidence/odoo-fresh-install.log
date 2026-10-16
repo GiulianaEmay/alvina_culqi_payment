@@ -1,0 +1,786 @@
+2026-10-16 18:40:01,644 4544 INFO ? odoo: Odoo version 19.0
+2026-10-16 18:40:01,644 4544 INFO ? odoo: addons paths: _NamespacePath(['/workspace/culqi-runtime/odoo/odoo/addons', '/workspace/culqi-runtime/odoo-data/addons/19.0', '/workspace/culqi-runtime/odoo/addons', '/workspace/alvina_culqi_payment'])
+2026-10-16 18:40:01,644 4544 INFO ? odoo: database: culqi_test@127.0.0.1:55432
+2026-10-16 18:40:01,878 4544 INFO ? odoo.service.server: HTTP service (werkzeug) running on localhost:58069
+2026-10-16 18:40:01,900 4544 INFO culqi19_fresh odoo.tests.common: Importing test framework
+2026-10-16 18:40:01,919 4544 INFO culqi19_fresh odoo.modules.loading: Initializing database culqi19_fresh
+2026-10-16 18:40:02,763 4544 INFO culqi19_fresh odoo.modules.loading: loading 1 modules...
+2026-10-16 18:40:02,763 4544 INFO culqi19_fresh odoo.modules.loading: Loading module base (1/1)
+2026-10-16 18:40:02,783 4544 INFO culqi19_fresh odoo.registry: module base: creating or updating database tables
+2026-10-16 18:40:02,954 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.module.module.menus_by_module
+2026-10-16 18:40:02,955 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.module.module.reports_by_module
+2026-10-16 18:40:02,955 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.module.module.views_by_module
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.user_id
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.commercial_partner_id
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.complete_name
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.lang
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.company_registry
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.commercial_company_name
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.properties
+2026-10-16 18:40:03,006 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.partner_share
+2026-10-16 18:40:03,022 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.currency.decimal_places
+2026-10-16 18:40:03,032 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.uses_default_logo
+2026-10-16 18:40:03,032 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.logo_web
+2026-10-16 18:40:03,033 4544 INFO culqi19_fresh odoo.models: Computing parent_path for table res_company...
+2026-10-16 18:40:03,048 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.users.signature
+2026-10-16 18:40:03,049 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.users.share
+2026-10-16 18:40:04,081 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_bank.xml
+2026-10-16 18:40:04,085 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res.lang.csv
+2026-10-16 18:40:04,113 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_lang_data.xml
+2026-10-16 18:40:04,142 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_partner_data.xml
+2026-10-16 18:40:04,183 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_currency_data.xml
+2026-10-16 18:40:04,535 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_company_data.xml
+2026-10-16 18:40:04,541 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_users_data.xml
+2026-10-16 18:40:05,110 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/report_paperformat_data.xml
+2026-10-16 18:40:05,118 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res_country_data.xml
+2026-10-16 18:40:05,572 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_demo_data.xml
+2026-10-16 18:40:05,584 4544 INFO culqi19_fresh odoo.modules.loading: loading base/security/base_groups.xml
+2026-10-16 18:40:05,710 4544 INFO culqi19_fresh odoo.modules.loading: loading base/security/base_security.xml
+2026-10-16 18:40:05,834 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml
+2026-10-16 18:40:05,843 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/base_menus.xml
+2026-10-16 18:40:05,889 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/decimal_precision_views.xml
+2026-10-16 18:40:05,903 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_config_views.xml
+2026-10-16 18:40:05,908 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/res.country.state.csv
+2026-10-16 18:40:06,170 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_actions_views.xml
+2026-10-16 18:40:06,289 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_asset_views.xml
+2026-10-16 18:40:06,304 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_config_parameter_views.xml
+2026-10-16 18:40:06,318 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_cron_views.xml
+2026-10-16 18:40:06,341 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml
+2026-10-16 18:40:06,356 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_filters_views.xml
+2026-10-16 18:40:06,374 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_mail_server_views.xml
+2026-10-16 18:40:06,392 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_model_views.xml
+2026-10-16 18:40:06,508 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_attachment_views.xml
+2026-10-16 18:40:06,525 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_rule_views.xml
+2026-10-16 18:40:06,542 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_sequence_views.xml
+2026-10-16 18:40:06,560 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_ui_menu_views.xml
+2026-10-16 18:40:06,577 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_ui_view_views.xml
+2026-10-16 18:40:06,614 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_default_views.xml
+2026-10-16 18:40:06,628 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_config_parameter_data.xml
+2026-10-16 18:40:06,630 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_cron_data.xml
+2026-10-16 18:40:06,639 4544 INFO culqi19_fresh odoo.modules.loading: loading base/report/ir_model_report.xml
+2026-10-16 18:40:06,642 4544 INFO culqi19_fresh odoo.modules.loading: loading base/report/ir_model_templates.xml
+2026-10-16 18:40:06,648 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_logging_views.xml
+2026-10-16 18:40:06,661 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml
+2026-10-16 18:40:06,672 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_module_views.xml
+2026-10-16 18:40:06,720 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_module_category_data.xml
+2026-10-16 18:40:06,754 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_module_module.xml
+2026-10-16 18:40:06,818 4544 INFO culqi19_fresh odoo.modules.loading: loading base/report/ir_module_reports.xml
+2026-10-16 18:40:06,821 4544 INFO culqi19_fresh odoo.modules.loading: loading base/report/ir_module_report_templates.xml
+2026-10-16 18:40:06,826 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_module_update_views.xml
+2026-10-16 18:40:06,837 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_language_install_views.xml
+2026-10-16 18:40:06,854 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_import_language_views.xml
+2026-10-16 18:40:06,863 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml
+2026-10-16 18:40:06,876 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml
+2026-10-16 18:40:06,884 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_export_language_views.xml
+2026-10-16 18:40:06,894 4544 INFO culqi19_fresh odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml
+2026-10-16 18:40:06,905 4544 INFO culqi19_fresh odoo.modules.loading: loading base/data/ir_demo_failure_data.xml
+2026-10-16 18:40:06,918 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/ir_profile_views.xml
+2026-10-16 18:40:06,937 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_company_views.xml
+2026-10-16 18:40:06,954 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_lang_views.xml
+2026-10-16 18:40:06,970 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_partner_views.xml
+2026-10-16 18:40:07,042 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_bank_views.xml
+2026-10-16 18:40:07,067 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_country_views.xml
+2026-10-16 18:40:07,101 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_currency_views.xml
+2026-10-16 18:40:07,131 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_groups_views.xml
+2026-10-16 18:40:07,165 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_users_views.xml
+2026-10-16 18:40:07,233 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_users_apikeys_views.xml
+2026-10-16 18:40:07,238 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_device_views.xml
+2026-10-16 18:40:07,252 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml
+2026-10-16 18:40:07,257 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/res_config_settings_views.xml
+2026-10-16 18:40:07,263 4544 INFO culqi19_fresh odoo.modules.loading: loading base/views/report_paperformat_views.xml
+2026-10-16 18:40:07,281 4544 INFO culqi19_fresh odoo.modules.loading: loading base/security/ir.model.access.csv
+2026-10-16 18:40:07,478 4544 INFO culqi19_fresh odoo.modules.loading: Module base loaded in 4.72s, 8454 queries (+8454 other)
+2026-10-16 18:40:07,478 4544 INFO culqi19_fresh odoo.modules.loading: 1 modules loaded in 4.72s, 8454 queries (+8454 extra)
+2026-10-16 18:40:07,481 4544 INFO culqi19_fresh odoo.modules.loading: updating modules list
+2026-10-16 18:40:07,482 4544 INFO culqi19_fresh odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a
+2026-10-16 18:40:08,152 4544 INFO culqi19_fresh odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Alviña CulqiLink Payments'] to user __system__ #1 via n/a
+2026-10-16 18:40:08,238 4544 INFO culqi19_fresh odoo.modules.loading: loading 57 modules...
+2026-10-16 18:40:08,239 4544 INFO culqi19_fresh odoo.modules.loading: Loading module rpc (2/57)
+2026-10-16 18:40:08,257 4544 INFO culqi19_fresh odoo.modules.loading: Module rpc loaded in 0.02s, 9 queries (+9 other)
+2026-10-16 18:40:08,257 4544 INFO culqi19_fresh odoo.modules.loading: Loading module uom (3/57)
+2026-10-16 18:40:08,260 4544 INFO culqi19_fresh odoo.registry: module uom: creating or updating database tables
+2026-10-16 18:40:08,291 4544 INFO culqi19_fresh odoo.modules.loading: loading uom/data/uom_data.xml
+2026-10-16 18:40:08,341 4544 INFO culqi19_fresh odoo.modules.loading: loading uom/security/uom_security.xml
+2026-10-16 18:40:08,344 4544 INFO culqi19_fresh odoo.modules.loading: loading uom/security/ir.model.access.csv
+2026-10-16 18:40:08,352 4544 INFO culqi19_fresh odoo.modules.loading: loading uom/views/uom_uom_views.xml
+2026-10-16 18:40:08,378 4544 INFO culqi19_fresh odoo.modules.loading: Module uom loaded in 0.12s, 230 queries (+230 other)
+2026-10-16 18:40:08,378 4544 INFO culqi19_fresh odoo.modules.loading: Loading module web (4/57)
+2026-10-16 18:40:08,402 4544 INFO culqi19_fresh odoo.registry: module web: creating or updating database tables
+2026-10-16 18:40:08,733 4544 INFO culqi19_fresh odoo.modules.loading: loading web/security/ir.model.access.csv
+2026-10-16 18:40:08,740 4544 INFO culqi19_fresh odoo.modules.loading: loading web/security/web_security.xml
+2026-10-16 18:40:08,751 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/webclient_templates.xml
+2026-10-16 18:40:08,794 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/report_templates.xml
+2026-10-16 18:40:08,866 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/base_document_layout_views.xml
+2026-10-16 18:40:08,878 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/partner_view.xml
+2026-10-16 18:40:08,884 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/speedscope_template.xml
+2026-10-16 18:40:08,888 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/memory_template.xml
+2026-10-16 18:40:08,892 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/speedscope_config_wizard.xml
+2026-10-16 18:40:08,896 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/neutralize_views.xml
+2026-10-16 18:40:08,903 4544 INFO culqi19_fresh odoo.modules.loading: loading web/views/ir_ui_view_views.xml
+2026-10-16 18:40:08,910 4544 INFO culqi19_fresh odoo.modules.loading: loading web/data/ir_attachment.xml
+2026-10-16 18:40:08,914 4544 INFO culqi19_fresh odoo.modules.loading: loading web/data/report_layout.xml
+2026-10-16 18:40:08,985 4544 INFO culqi19_fresh odoo.modules.loading: Module web loaded in 0.61s, 1242 queries (+1242 other)
+2026-10-16 18:40:08,986 4544 INFO culqi19_fresh odoo.modules.loading: Loading module api_doc (5/57)
+2026-10-16 18:40:08,991 4544 INFO culqi19_fresh odoo.registry: module api_doc: creating or updating database tables
+2026-10-16 18:40:09,004 4544 INFO culqi19_fresh odoo.modules.loading: loading api_doc/security/res_groups.xml
+2026-10-16 18:40:09,022 4544 INFO culqi19_fresh odoo.modules.loading: loading api_doc/views/docclient.xml
+2026-10-16 18:40:09,041 4544 INFO culqi19_fresh odoo.modules.loading: Module api_doc loaded in 0.06s, 63 queries (+63 other)
+2026-10-16 18:40:09,041 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_totp (6/57)
+2026-10-16 18:40:09,052 4544 INFO culqi19_fresh odoo.registry: module auth_totp: creating or updating database tables
+2026-10-16 18:40:09,107 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/security/security.xml
+2026-10-16 18:40:09,126 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/security/ir.model.access.csv
+2026-10-16 18:40:09,131 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/data/ir_action_data.xml
+2026-10-16 18:40:09,137 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/views/res_users_views.xml
+2026-10-16 18:40:09,158 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/views/templates.xml
+2026-10-16 18:40:09,163 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml
+2026-10-16 18:40:09,188 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_totp loaded in 0.15s, 218 queries (+218 other)
+2026-10-16 18:40:09,188 4544 INFO culqi19_fresh odoo.modules.loading: Loading module base_import (7/57)
+2026-10-16 18:40:09,211 4544 INFO culqi19_fresh odoo.registry: module base_import: creating or updating database tables
+2026-10-16 18:40:09,523 4544 INFO culqi19_fresh odoo.modules.loading: loading base_import/security/base_import_security.xml
+2026-10-16 18:40:09,529 4544 INFO culqi19_fresh odoo.modules.loading: loading base_import/security/ir.model.access.csv
+2026-10-16 18:40:09,541 4544 INFO culqi19_fresh odoo.modules.loading: Module base_import loaded in 0.35s, 974 queries (+974 other)
+2026-10-16 18:40:09,541 4544 INFO culqi19_fresh odoo.modules.loading: Loading module base_import_module (8/57)
+2026-10-16 18:40:09,547 4544 INFO culqi19_fresh odoo.registry: module base_import_module: creating or updating database tables
+2026-10-16 18:40:09,589 4544 INFO culqi19_fresh odoo.modules.loading: loading base_import_module/security/ir.model.access.csv
+2026-10-16 18:40:09,594 4544 INFO culqi19_fresh odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml
+2026-10-16 18:40:09,610 4544 INFO culqi19_fresh odoo.modules.loading: loading base_import_module/views/ir_module_views.xml
+2026-10-16 18:40:09,652 4544 INFO culqi19_fresh odoo.modules.loading: Module base_import_module loaded in 0.11s, 172 queries (+172 other)
+2026-10-16 18:40:09,652 4544 INFO culqi19_fresh odoo.modules.loading: Loading module base_setup (9/57)
+2026-10-16 18:40:09,659 4544 INFO culqi19_fresh odoo.registry: module base_setup: creating or updating database tables
+2026-10-16 18:40:09,692 4544 INFO culqi19_fresh odoo.modules.loading: loading base_setup/data/base_setup_data.xml
+2026-10-16 18:40:09,696 4544 INFO culqi19_fresh odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml
+2026-10-16 18:40:09,722 4544 INFO culqi19_fresh odoo.modules.loading: loading base_setup/views/res_partner_views.xml
+2026-10-16 18:40:09,740 4544 INFO culqi19_fresh odoo.modules.loading: Module base_setup loaded in 0.09s, 152 queries (+152 other)
+2026-10-16 18:40:09,740 4544 INFO culqi19_fresh odoo.modules.loading: Loading module bus (10/57)
+2026-10-16 18:40:09,754 4544 INFO culqi19_fresh odoo.registry: module bus: creating or updating database tables
+2026-10-16 18:40:09,826 4544 INFO culqi19_fresh odoo.modules.loading: loading bus/security/ir.model.access.csv
+2026-10-16 18:40:09,839 4544 INFO culqi19_fresh odoo.modules.loading: Module bus loaded in 0.10s, 159 queries (+159 other)
+2026-10-16 18:40:09,839 4544 INFO culqi19_fresh odoo.modules.loading: Loading module http_routing (11/57)
+2026-10-16 18:40:09,842 4544 INFO culqi19_fresh odoo.registry: module http_routing: creating or updating database tables
+2026-10-16 18:40:09,859 4544 INFO culqi19_fresh odoo.modules.loading: loading http_routing/views/http_routing_template.xml
+2026-10-16 18:40:09,893 4544 INFO culqi19_fresh odoo.modules.loading: loading http_routing/views/res_lang_views.xml
+2026-10-16 18:40:09,915 4544 INFO culqi19_fresh odoo.modules.loading: Module http_routing loaded in 0.08s, 114 queries (+114 other)
+2026-10-16 18:40:09,915 4544 INFO culqi19_fresh odoo.modules.loading: Loading module onboarding (12/57)
+2026-10-16 18:40:09,920 4544 INFO culqi19_fresh odoo.registry: module onboarding: creating or updating database tables
+2026-10-16 18:40:10,004 4544 INFO culqi19_fresh odoo.modules.loading: loading onboarding/views/onboarding_templates.xml
+2026-10-16 18:40:10,017 4544 INFO culqi19_fresh odoo.modules.loading: loading onboarding/views/onboarding_views.xml
+2026-10-16 18:40:10,039 4544 INFO culqi19_fresh odoo.modules.loading: loading onboarding/views/onboarding_menus.xml
+2026-10-16 18:40:10,046 4544 INFO culqi19_fresh odoo.modules.loading: loading onboarding/security/ir.model.access.csv
+2026-10-16 18:40:10,119 4544 INFO culqi19_fresh odoo.modules.loading: Module onboarding loaded in 0.20s, 246 queries (+246 other)
+2026-10-16 18:40:10,119 4544 INFO culqi19_fresh odoo.modules.loading: Loading module resource (13/57)
+2026-10-16 18:40:10,131 4544 INFO culqi19_fresh odoo.registry: module resource: creating or updating database tables
+2026-10-16 18:40:10,221 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/data/resource_data.xml
+2026-10-16 18:40:10,235 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/security/ir.model.access.csv
+2026-10-16 18:40:10,244 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/security/resource_security.xml
+2026-10-16 18:40:10,262 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/views/resource_resource_views.xml
+2026-10-16 18:40:10,281 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/views/resource_calendar_leaves_views.xml
+2026-10-16 18:40:10,303 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/views/resource_calendar_attendance_views.xml
+2026-10-16 18:40:10,311 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/views/resource_calendar_views.xml
+2026-10-16 18:40:10,328 4544 INFO culqi19_fresh odoo.modules.loading: loading resource/views/menuitems.xml
+2026-10-16 18:40:10,353 4544 INFO culqi19_fresh odoo.modules.loading: Module resource loaded in 0.23s, 414 queries (+414 other)
+2026-10-16 18:40:10,353 4544 INFO culqi19_fresh odoo.modules.loading: Loading module utm (14/57)
+2026-10-16 18:40:10,359 4544 INFO culqi19_fresh odoo.registry: module utm: creating or updating database tables
+2026-10-16 18:40:10,430 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/data/utm_medium_data.xml
+2026-10-16 18:40:10,448 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/data/utm_source_data.xml
+2026-10-16 18:40:10,462 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/data/utm_stage_data.xml
+2026-10-16 18:40:10,465 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/data/utm_tag_data.xml
+2026-10-16 18:40:10,468 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_campaign_views.xml
+2026-10-16 18:40:10,492 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_medium_views.xml
+2026-10-16 18:40:10,505 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_source_views.xml
+2026-10-16 18:40:10,514 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_stage_views.xml
+2026-10-16 18:40:10,527 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_tag_views.xml
+2026-10-16 18:40:10,533 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/views/utm_menus.xml
+2026-10-16 18:40:10,552 4544 INFO culqi19_fresh odoo.modules.loading: loading utm/security/ir.model.access.csv
+2026-10-16 18:40:10,573 4544 INFO culqi19_fresh odoo.modules.loading: Module utm loaded in 0.22s, 410 queries (+410 other)
+2026-10-16 18:40:10,573 4544 INFO culqi19_fresh odoo.modules.loading: Loading module web_tour (15/57)
+2026-10-16 18:40:10,581 4544 INFO culqi19_fresh odoo.registry: module web_tour: creating or updating database tables
+2026-10-16 18:40:10,584 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.users.tour_enabled
+2026-10-16 18:40:10,644 4544 INFO culqi19_fresh odoo.modules.loading: loading web_tour/security/ir.model.access.csv
+2026-10-16 18:40:10,650 4544 INFO culqi19_fresh odoo.modules.loading: loading web_tour/views/tour_views.xml
+2026-10-16 18:40:10,686 4544 INFO culqi19_fresh odoo.modules.loading: Module web_tour loaded in 0.11s, 180 queries (+180 other)
+2026-10-16 18:40:10,687 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_passkey (16/57)
+2026-10-16 18:40:10,710 4544 INFO culqi19_fresh odoo.registry: module auth_passkey: creating or updating database tables
+2026-10-16 18:40:10,758 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml
+2026-10-16 18:40:10,779 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml
+2026-10-16 18:40:10,790 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml
+2026-10-16 18:40:10,798 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/views/res_users_views.xml
+2026-10-16 18:40:10,812 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv
+2026-10-16 18:40:10,818 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey/security/security.xml
+2026-10-16 18:40:10,841 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_passkey loaded in 0.15s, 218 queries (+218 other)
+2026-10-16 18:40:10,841 4544 INFO culqi19_fresh odoo.modules.loading: Loading module html_editor (17/57)
+2026-10-16 18:40:10,897 4544 INFO culqi19_fresh odoo.registry: module html_editor: creating or updating database tables
+2026-10-16 18:40:11,276 4544 INFO culqi19_fresh odoo.modules.loading: loading html_editor/security/ir.model.access.csv
+2026-10-16 18:40:11,298 4544 INFO culqi19_fresh odoo.modules.loading: Module html_editor loaded in 0.46s, 1160 queries (+1160 other)
+2026-10-16 18:40:11,298 4544 INFO culqi19_fresh odoo.modules.loading: Loading module iap (18/57)
+2026-10-16 18:40:11,303 4544 INFO culqi19_fresh odoo.registry: module iap: creating or updating database tables
+2026-10-16 18:40:11,357 4544 INFO culqi19_fresh odoo.modules.loading: loading iap/data/services.xml
+2026-10-16 18:40:11,362 4544 INFO culqi19_fresh odoo.modules.loading: loading iap/security/ir.model.access.csv
+2026-10-16 18:40:11,369 4544 INFO culqi19_fresh odoo.modules.loading: loading iap/security/ir_rule.xml
+2026-10-16 18:40:11,376 4544 INFO culqi19_fresh odoo.modules.loading: loading iap/views/iap_views.xml
+2026-10-16 18:40:11,398 4544 INFO culqi19_fresh odoo.modules.loading: loading iap/views/res_config_settings.xml
+2026-10-16 18:40:11,420 4544 INFO culqi19_fresh odoo.modules.loading: Module iap loaded in 0.12s, 185 queries (+185 other)
+2026-10-16 18:40:11,420 4544 INFO culqi19_fresh odoo.modules.loading: Loading module mail (19/57)
+2026-10-16 18:40:11,476 4544 INFO culqi19_fresh odoo.registry: module mail: creating or updating database tables
+2026-10-16 18:40:11,593 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.partner_ids
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_user_id
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_type_id
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.template_id
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_summary
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.followers_type
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.followers_partner_field_name
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.mail_post_method
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_user_type
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_user_field_name
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.activity_note
+2026-10-16 18:40:11,594 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow
+2026-10-16 18:40:11,637 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.users.notification_type
+2026-10-16 18:40:11,677 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.email_normalized
+2026-10-16 18:40:12,701 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_groups.xml
+2026-10-16 18:40:12,720 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_activity_schedule_views.xml
+2026-10-16 18:40:12,730 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml
+2026-10-16 18:40:12,735 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml
+2026-10-16 18:40:12,750 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml
+2026-10-16 18:40:12,759 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_followers_edit_views.xml
+2026-10-16 18:40:12,771 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml
+2026-10-16 18:40:12,778 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/fetchmail_views.xml
+2026-10-16 18:40:12,792 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/ir_cron_views.xml
+2026-10-16 18:40:12,802 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/ir_filters_views.xml
+2026-10-16 18:40:12,816 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/ir_mail_server_views.xml
+2026-10-16 18:40:12,823 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml
+2026-10-16 18:40:12,835 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_tracking_value_views.xml
+2026-10-16 18:40:12,845 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_notification_views.xml
+2026-10-16 18:40:12,855 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_message_views.xml
+2026-10-16 18:40:12,878 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml
+2026-10-16 18:40:12,891 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_mail_views.xml
+2026-10-16 18:40:12,911 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_followers_views.xml
+2026-10-16 18:40:12,923 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_ice_server_views.xml
+2026-10-16 18:40:12,944 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss_channel_member_views.xml
+2026-10-16 18:40:12,955 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss_channel_rtc_session_views.xml
+2026-10-16 18:40:12,969 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_link_preview_views.xml
+2026-10-16 18:40:12,987 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss/discuss_gif_favorite_views.xml
+2026-10-16 18:40:12,998 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss_channel_views.xml
+2026-10-16 18:40:13,029 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_canned_response_views.xml
+2026-10-16 18:40:13,052 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_role_views.xml
+2026-10-16 18:40:13,071 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_activity_views.xml
+2026-10-16 18:40:13,161 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_activity_plan_views.xml
+2026-10-16 18:40:13,193 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_activity_plan_template_views.xml
+2026-10-16 18:40:13,200 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_config_settings_views.xml
+2026-10-16 18:40:13,216 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/ir_config_parameter_data.xml
+2026-10-16 18:40:13,220 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/res_partner_data.xml
+2026-10-16 18:40:13,275 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml
+2026-10-16 18:40:13,282 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_templates_chatter.xml
+2026-10-16 18:40:13,297 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml
+2026-10-16 18:40:13,311 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml
+2026-10-16 18:40:13,325 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/discuss_channel_data.xml
+2026-10-16 18:40:13,361 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_activity_type_data.xml
+2026-10-16 18:40:13,370 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/security_notifications_templates.xml
+2026-10-16 18:40:13,375 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/ir_cron_data.xml
+2026-10-16 18:40:13,461 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/ir_actions_client.xml
+2026-10-16 18:40:13,464 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/security/mail_security.xml
+2026-10-16 18:40:13,574 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/security/ir.model.access.csv
+2026-10-16 18:40:13,603 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss_public_templates.xml
+2026-10-16 18:40:13,607 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_alias_domain_views.xml
+2026-10-16 18:40:13,619 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_alias_views.xml
+2026-10-16 18:40:13,633 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml
+2026-10-16 18:40:13,644 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_guest_views.xml
+2026-10-16 18:40:13,655 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml
+2026-10-16 18:40:13,665 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_templates_public.xml
+2026-10-16 18:40:13,672 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_users_views.xml
+2026-10-16 18:40:13,694 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_users_settings_views.xml
+2026-10-16 18:40:13,705 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_template_views.xml
+2026-10-16 18:40:13,722 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/ir_actions_server_views.xml
+2026-10-16 18:40:13,737 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/ir_model_views.xml
+2026-10-16 18:40:13,768 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_partner_views.xml
+2026-10-16 18:40:13,806 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_blacklist_views.xml
+2026-10-16 18:40:13,821 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_menus.xml
+2026-10-16 18:40:13,923 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss/discuss_menus.xml
+2026-10-16 18:40:13,927 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/discuss/discuss_call_history_views.xml
+2026-10-16 18:40:13,941 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/res_company_views.xml
+2026-10-16 18:40:13,950 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/views/mail_scheduled_message_views.xml
+2026-10-16 18:40:13,956 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_canned_response_data.xml
+2026-10-16 18:40:13,962 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/mail_templates_invite.xml
+2026-10-16 18:40:13,973 4544 INFO culqi19_fresh odoo.modules.loading: loading mail/data/web_tour_tour.xml
+2026-10-16 18:40:14,012 4544 INFO culqi19_fresh odoo.modules.loading: Module mail loaded in 2.59s, 5102 queries (+5103 other)
+2026-10-16 18:40:14,012 4544 INFO culqi19_fresh odoo.modules.loading: Loading module web_unsplash (20/57)
+2026-10-16 18:40:14,023 4544 INFO culqi19_fresh odoo.registry: module web_unsplash: creating or updating database tables
+2026-10-16 18:40:14,059 4544 INFO culqi19_fresh odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml
+2026-10-16 18:40:14,088 4544 INFO culqi19_fresh odoo.modules.loading: Module web_unsplash loaded in 0.08s, 101 queries (+101 other)
+2026-10-16 18:40:14,088 4544 INFO culqi19_fresh odoo.modules.loading: Loading module analytic (21/57)
+2026-10-16 18:40:14,097 4544 INFO culqi19_fresh odoo.registry: module analytic: creating or updating database tables
+2026-10-16 18:40:14,208 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/security/analytic_security.xml
+2026-10-16 18:40:14,223 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/security/ir.model.access.csv
+2026-10-16 18:40:14,232 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/views/analytic_line_views.xml
+2026-10-16 18:40:14,261 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/views/analytic_account_views.xml
+2026-10-16 18:40:14,283 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/views/analytic_plan_views.xml
+2026-10-16 18:40:14,296 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml
+2026-10-16 18:40:14,305 4544 INFO culqi19_fresh odoo.modules.loading: loading analytic/data/analytic_data.xml
+2026-10-16 18:40:14,337 4544 INFO culqi19_fresh odoo.modules.loading: Module analytic loaded in 0.25s, 424 queries (+424 other)
+2026-10-16 18:40:14,338 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_signup (22/57)
+2026-10-16 18:40:14,349 4544 INFO culqi19_fresh odoo.registry: module auth_signup: creating or updating database tables
+2026-10-16 18:40:14,400 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml
+2026-10-16 18:40:14,403 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml
+2026-10-16 18:40:14,424 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/data/mail_template_data.xml
+2026-10-16 18:40:14,484 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml
+2026-10-16 18:40:14,496 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/views/res_users_views.xml
+2026-10-16 18:40:14,517 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml
+2026-10-16 18:40:14,532 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/views/auth_signup_templates_email.xml
+2026-10-16 18:40:14,537 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_signup/views/webclient_templates.xml
+2026-10-16 18:40:14,560 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_signup loaded in 0.22s, 253 queries (+253 other)
+2026-10-16 18:40:14,560 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_totp_mail (23/57)
+2026-10-16 18:40:14,570 4544 INFO culqi19_fresh odoo.registry: module auth_totp_mail: creating or updating database tables
+2026-10-16 18:40:14,601 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml
+2026-10-16 18:40:14,627 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml
+2026-10-16 18:40:14,653 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/data/security_notifications_template.xml
+2026-10-16 18:40:14,659 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/views/res_config_settings_views.xml
+2026-10-16 18:40:14,671 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml
+2026-10-16 18:40:14,685 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_mail/views/templates.xml
+2026-10-16 18:40:14,707 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_totp_mail loaded in 0.15s, 189 queries (+189 other)
+2026-10-16 18:40:14,707 4544 INFO culqi19_fresh odoo.modules.loading: Loading module base_install_request (24/57)
+2026-10-16 18:40:14,713 4544 INFO culqi19_fresh odoo.registry: module base_install_request: creating or updating database tables
+2026-10-16 18:40:14,762 4544 INFO culqi19_fresh odoo.modules.loading: loading base_install_request/security/ir.model.access.csv
+2026-10-16 18:40:14,769 4544 INFO culqi19_fresh odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml
+2026-10-16 18:40:14,784 4544 INFO culqi19_fresh odoo.modules.loading: loading base_install_request/data/mail_template_data.xml
+2026-10-16 18:40:14,789 4544 INFO culqi19_fresh odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml
+2026-10-16 18:40:14,792 4544 INFO culqi19_fresh odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml
+2026-10-16 18:40:14,844 4544 INFO culqi19_fresh odoo.modules.loading: Module base_install_request loaded in 0.14s, 154 queries (+154 other)
+2026-10-16 18:40:14,844 4544 INFO culqi19_fresh odoo.modules.loading: Loading module google_gmail (25/57)
+2026-10-16 18:40:14,854 4544 INFO culqi19_fresh odoo.registry: module google_gmail: creating or updating database tables
+2026-10-16 18:40:14,897 4544 INFO culqi19_fresh odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml
+2026-10-16 18:40:14,908 4544 INFO culqi19_fresh odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml
+2026-10-16 18:40:14,916 4544 INFO culqi19_fresh odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml
+2026-10-16 18:40:14,930 4544 INFO culqi19_fresh odoo.modules.loading: loading google_gmail/views/templates.xml
+2026-10-16 18:40:14,940 4544 INFO culqi19_fresh odoo.modules.loading: Module google_gmail loaded in 0.10s, 153 queries (+153 other)
+2026-10-16 18:40:14,940 4544 INFO culqi19_fresh odoo.modules.loading: Loading module iap_mail (26/57)
+2026-10-16 18:40:14,945 4544 INFO culqi19_fresh odoo.registry: module iap_mail: creating or updating database tables
+2026-10-16 18:40:14,968 4544 INFO culqi19_fresh odoo.modules.loading: loading iap_mail/data/mail_templates.xml
+2026-10-16 18:40:14,979 4544 INFO culqi19_fresh odoo.modules.loading: loading iap_mail/views/iap_views.xml
+2026-10-16 18:40:14,993 4544 INFO culqi19_fresh odoo.modules.loading: Module iap_mail loaded in 0.05s, 70 queries (+70 other)
+2026-10-16 18:40:14,993 4544 INFO culqi19_fresh odoo.modules.loading: Loading module mail_bot (27/57)
+2026-10-16 18:40:15,002 4544 INFO culqi19_fresh odoo.registry: module mail_bot: creating or updating database tables
+2026-10-16 18:40:15,038 4544 INFO culqi19_fresh odoo.modules.loading: loading mail_bot/views/res_users_views.xml
+2026-10-16 18:40:15,052 4544 INFO culqi19_fresh odoo.modules.loading: loading mail_bot/data/mailbot_data.xml
+2026-10-16 18:40:15,061 4544 INFO culqi19_fresh odoo.modules.loading: Module mail_bot loaded in 0.07s, 109 queries (+109 other)
+2026-10-16 18:40:15,062 4544 INFO culqi19_fresh odoo.modules.loading: Loading module microsoft_outlook (28/57)
+2026-10-16 18:40:15,072 4544 INFO culqi19_fresh odoo.registry: module microsoft_outlook: creating or updating database tables
+2026-10-16 18:40:15,113 4544 INFO culqi19_fresh odoo.modules.loading: loading microsoft_outlook/views/fetchmail_server_views.xml
+2026-10-16 18:40:15,127 4544 INFO culqi19_fresh odoo.modules.loading: loading microsoft_outlook/views/ir_mail_server_views.xml
+2026-10-16 18:40:15,136 4544 INFO culqi19_fresh odoo.modules.loading: loading microsoft_outlook/views/res_config_settings_views.xml
+2026-10-16 18:40:15,151 4544 INFO culqi19_fresh odoo.modules.loading: loading microsoft_outlook/views/templates.xml
+2026-10-16 18:40:15,161 4544 INFO culqi19_fresh odoo.modules.loading: Module microsoft_outlook loaded in 0.10s, 156 queries (+156 other)
+2026-10-16 18:40:15,161 4544 INFO culqi19_fresh odoo.modules.loading: Loading module phone_validation (29/57)
+2026-10-16 18:40:15,212 4544 INFO culqi19_fresh odoo.registry: module phone_validation: creating or updating database tables
+2026-10-16 18:40:15,219 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.phone_sanitized
+2026-10-16 18:40:15,718 4544 INFO culqi19_fresh odoo.modules.loading: loading phone_validation/security/ir.model.access.csv
+2026-10-16 18:40:15,724 4544 INFO culqi19_fresh odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml
+2026-10-16 18:40:15,752 4544 INFO culqi19_fresh odoo.modules.loading: loading phone_validation/views/res_partner_views.xml
+2026-10-16 18:40:15,761 4544 INFO culqi19_fresh odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml
+2026-10-16 18:40:15,779 4544 INFO culqi19_fresh odoo.modules.loading: Module phone_validation loaded in 0.62s, 1793 queries (+1793 other)
+2026-10-16 18:40:15,779 4544 INFO culqi19_fresh odoo.modules.loading: Loading module privacy_lookup (30/57)
+2026-10-16 18:40:15,792 4544 INFO culqi19_fresh odoo.registry: module privacy_lookup: creating or updating database tables
+2026-10-16 18:40:15,871 4544 INFO culqi19_fresh odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml
+2026-10-16 18:40:15,914 4544 INFO culqi19_fresh odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml
+2026-10-16 18:40:15,930 4544 INFO culqi19_fresh odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv
+2026-10-16 18:40:15,943 4544 INFO culqi19_fresh odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml
+2026-10-16 18:40:15,979 4544 INFO culqi19_fresh odoo.modules.loading: Module privacy_lookup loaded in 0.20s, 294 queries (+294 other)
+2026-10-16 18:40:15,979 4544 INFO culqi19_fresh odoo.modules.loading: Loading module product (31/57)
+2026-10-16 18:40:16,010 4544 INFO culqi19_fresh odoo.registry: module product: creating or updating database tables
+2026-10-16 18:40:16,424 4544 INFO culqi19_fresh odoo.modules.loading: loading product/data/product_data.xml
+2026-10-16 18:40:16,447 4544 INFO culqi19_fresh odoo.modules.loading: loading product/security/product_security.xml
+2026-10-16 18:40:16,494 4544 INFO culqi19_fresh odoo.modules.loading: loading product/security/ir.model.access.csv
+2026-10-16 18:40:16,509 4544 INFO culqi19_fresh odoo.modules.loading: loading product/wizard/product_label_layout_views.xml
+2026-10-16 18:40:16,519 4544 INFO culqi19_fresh odoo.modules.loading: loading product/wizard/update_product_attribute_value_views.xml
+2026-10-16 18:40:16,525 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_tag_views.xml
+2026-10-16 18:40:16,535 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_views.xml
+2026-10-16 18:40:16,619 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/res_config_settings_views.xml
+2026-10-16 18:40:16,631 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_attribute_views.xml
+2026-10-16 18:40:16,661 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_attribute_value_views.xml
+2026-10-16 18:40:16,664 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_category_views.xml
+2026-10-16 18:40:16,677 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_combo_views.xml
+2026-10-16 18:40:16,689 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_document_views.xml
+2026-10-16 18:40:16,704 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_pricelist_item_views.xml
+2026-10-16 18:40:16,729 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_pricelist_views.xml
+2026-10-16 18:40:16,749 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_supplierinfo_views.xml
+2026-10-16 18:40:16,768 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_template_attribute_line_views.xml
+2026-10-16 18:40:16,772 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/product_template_views.xml
+2026-10-16 18:40:16,815 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/res_country_group_views.xml
+2026-10-16 18:40:16,822 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/res_partner_views.xml
+2026-10-16 18:40:16,830 4544 INFO culqi19_fresh odoo.modules.loading: loading product/views/uom_views.xml
+2026-10-16 18:40:16,841 4544 INFO culqi19_fresh odoo.modules.loading: loading product/report/product_reports.xml
+2026-10-16 18:40:16,858 4544 INFO culqi19_fresh odoo.modules.loading: loading product/report/product_product_templates.xml
+2026-10-16 18:40:16,879 4544 INFO culqi19_fresh odoo.modules.loading: loading product/report/product_template_templates.xml
+2026-10-16 18:40:16,893 4544 INFO culqi19_fresh odoo.modules.loading: loading product/report/product_packaging.xml
+2026-10-16 18:40:16,897 4544 INFO culqi19_fresh odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml
+2026-10-16 18:40:16,938 4544 INFO culqi19_fresh odoo.modules.loading: Module product loaded in 0.96s, 1635 queries (+1635 other)
+2026-10-16 18:40:16,938 4544 INFO culqi19_fresh odoo.modules.loading: Loading module resource_mail (32/57)
+2026-10-16 18:40:16,947 4544 INFO culqi19_fresh odoo.registry: module resource_mail: creating or updating database tables
+2026-10-16 18:40:16,985 4544 INFO culqi19_fresh odoo.modules.loading: Module resource_mail loaded in 0.05s, 36 queries (+36 other)
+2026-10-16 18:40:16,985 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sales_team (33/57)
+2026-10-16 18:40:16,996 4544 INFO culqi19_fresh odoo.registry: module sales_team: creating or updating database tables
+2026-10-16 18:40:17,008 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.users.sale_team_id
+2026-10-16 18:40:17,081 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/security/sales_team_security.xml
+2026-10-16 18:40:17,118 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/security/ir.model.access.csv
+2026-10-16 18:40:17,126 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/data/crm_team_data.xml
+2026-10-16 18:40:17,154 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/views/crm_tag_views.xml
+2026-10-16 18:40:17,166 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/views/crm_team_views.xml
+2026-10-16 18:40:17,191 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml
+2026-10-16 18:40:17,218 4544 INFO culqi19_fresh odoo.modules.loading: loading sales_team/views/mail_activity_views.xml
+2026-10-16 18:40:17,236 4544 INFO culqi19_fresh odoo.modules.loading: Module sales_team loaded in 0.25s, 365 queries (+365 other)
+2026-10-16 18:40:17,236 4544 INFO culqi19_fresh odoo.modules.loading: Loading module partner_autocomplete (34/57)
+2026-10-16 18:40:17,271 4544 INFO culqi19_fresh odoo.registry: module partner_autocomplete: creating or updating database tables
+2026-10-16 18:40:17,329 4544 INFO culqi19_fresh odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml
+2026-10-16 18:40:17,341 4544 INFO culqi19_fresh odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml
+2026-10-16 18:40:17,352 4544 INFO culqi19_fresh odoo.modules.loading: loading partner_autocomplete/data/iap_service_data.xml
+2026-10-16 18:40:17,363 4544 INFO culqi19_fresh odoo.modules.loading: Module partner_autocomplete loaded in 0.13s, 142 queries (+142 other)
+2026-10-16 18:40:17,363 4544 INFO culqi19_fresh odoo.modules.loading: Loading module portal (35/57)
+2026-10-16 18:40:17,391 4544 INFO culqi19_fresh odoo.registry: module portal: creating or updating database tables
+2026-10-16 18:40:17,547 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/security/ir.model.access.csv
+2026-10-16 18:40:17,553 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/data/mail_templates.xml
+2026-10-16 18:40:17,558 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/views/address_templates.xml
+2026-10-16 18:40:17,578 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/views/mail_templates_public.xml
+2026-10-16 18:40:17,583 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/views/portal_templates.xml
+2026-10-16 18:40:17,660 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/views/res_config_settings_views.xml
+2026-10-16 18:40:17,676 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/wizard/portal_share_views.xml
+2026-10-16 18:40:17,684 4544 INFO culqi19_fresh odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml
+2026-10-16 18:40:17,726 4544 INFO culqi19_fresh odoo.modules.loading: Module portal loaded in 0.36s, 612 queries (+612 other)
+2026-10-16 18:40:17,726 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sms (36/57)
+2026-10-16 18:40:17,808 4544 INFO culqi19_fresh odoo.registry: module sms: creating or updating database tables
+2026-10-16 18:40:17,815 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.sms_template_id
+2026-10-16 18:40:17,815 4544 INFO culqi19_fresh odoo.models: Prepare computation of ir.actions.server.sms_method
+2026-10-16 18:40:18,500 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/data/iap_service_data.xml
+2026-10-16 18:40:18,504 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/data/ir_cron_data.xml
+2026-10-16 18:40:18,523 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_account_code_views.xml
+2026-10-16 18:40:18,532 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_account_phone_views.xml
+2026-10-16 18:40:18,537 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_account_sender_views.xml
+2026-10-16 18:40:18,542 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_composer_views.xml
+2026-10-16 18:40:18,550 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml
+2026-10-16 18:40:18,558 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml
+2026-10-16 18:40:18,566 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/ir_actions_server_views.xml
+2026-10-16 18:40:18,580 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/mail_notification_views.xml
+2026-10-16 18:40:18,592 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/res_config_settings_views.xml
+2026-10-16 18:40:18,604 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/res_partner_views.xml
+2026-10-16 18:40:18,617 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/iap_account_views.xml
+2026-10-16 18:40:18,626 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/sms_sms_views.xml
+2026-10-16 18:40:18,650 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/views/sms_template_views.xml
+2026-10-16 18:40:18,667 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/security/ir.model.access.csv
+2026-10-16 18:40:18,689 4544 INFO culqi19_fresh odoo.modules.loading: loading sms/security/sms_security.xml
+2026-10-16 18:40:18,712 4544 INFO culqi19_fresh odoo.modules.loading: Module sms loaded in 0.99s, 2425 queries (+2425 other)
+2026-10-16 18:40:18,712 4544 INFO culqi19_fresh odoo.modules.loading: Loading module snailmail (37/57)
+2026-10-16 18:40:18,799 4544 INFO culqi19_fresh odoo.registry: module snailmail: creating or updating database tables
+2026-10-16 18:40:18,982 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail/data/iap_service_data.xml
+2026-10-16 18:40:18,986 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail/data/snailmail_data.xml
+2026-10-16 18:40:19,006 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail/views/report_assets.xml
+2026-10-16 18:40:19,017 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail/views/snailmail_views.xml
+2026-10-16 18:40:19,033 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail/security/ir.model.access.csv
+2026-10-16 18:40:19,057 4544 INFO culqi19_fresh odoo.modules.loading: Module snailmail loaded in 0.35s, 478 queries (+478 other)
+2026-10-16 18:40:19,057 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_passkey_portal (38/57)
+2026-10-16 18:40:19,068 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_passkey_portal/views/templates.xml
+2026-10-16 18:40:19,094 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_passkey_portal loaded in 0.04s, 22 queries (+22 other)
+2026-10-16 18:40:19,094 4544 INFO culqi19_fresh odoo.modules.loading: Loading module auth_totp_portal (39/57)
+2026-10-16 18:40:19,102 4544 INFO culqi19_fresh odoo.registry: module auth_totp_portal: creating or updating database tables
+2026-10-16 18:40:19,125 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_portal/security/security.xml
+2026-10-16 18:40:19,137 4544 INFO culqi19_fresh odoo.modules.loading: loading auth_totp_portal/views/templates.xml
+2026-10-16 18:40:19,153 4544 INFO culqi19_fresh odoo.modules.loading: Module auth_totp_portal loaded in 0.06s, 70 queries (+70 other)
+2026-10-16 18:40:19,153 4544 INFO culqi19_fresh odoo.modules.loading: Loading module digest (40/57)
+2026-10-16 18:40:19,165 4544 INFO culqi19_fresh odoo.registry: module digest: creating or updating database tables
+2026-10-16 18:40:19,242 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/security/ir.model.access.csv
+2026-10-16 18:40:19,249 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/data/digest_data.xml
+2026-10-16 18:40:19,264 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/data/digest_tips_data.xml
+2026-10-16 18:40:19,278 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/data/ir_cron_data.xml
+2026-10-16 18:40:19,297 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/data/res_config_settings_data.xml
+2026-10-16 18:40:19,301 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/views/digest_views.xml
+2026-10-16 18:40:19,339 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/views/digest_templates.xml
+2026-10-16 18:40:19,342 4544 INFO culqi19_fresh odoo.modules.loading: loading digest/views/res_config_settings_views.xml
+2026-10-16 18:40:19,375 4544 INFO culqi19_fresh odoo.modules.loading: Module digest loaded in 0.22s, 326 queries (+326 other)
+2026-10-16 18:40:19,375 4544 INFO culqi19_fresh odoo.modules.loading: Loading module payment (41/57)
+2026-10-16 18:40:19,409 4544 INFO culqi19_fresh odoo.registry: module payment: creating or updating database tables
+2026-10-16 18:40:19,621 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/data/ir_actions_server_data.xml
+2026-10-16 18:40:19,640 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/data/payment_method_data.xml
+2026-10-16 18:40:20,996 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/data/payment_provider_data.xml
+2026-10-16 18:40:21,170 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/data/payment_cron.xml
+2026-10-16 18:40:21,188 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/express_checkout_templates.xml
+2026-10-16 18:40:21,192 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/payment_form_templates.xml
+2026-10-16 18:40:21,224 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/portal_templates.xml
+2026-10-16 18:40:21,261 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/payment_provider_views.xml
+2026-10-16 18:40:21,287 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/payment_method_views.xml
+2026-10-16 18:40:21,305 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/payment_transaction_views.xml
+2026-10-16 18:40:21,334 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/payment_token_views.xml
+2026-10-16 18:40:21,350 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/views/res_partner_views.xml
+2026-10-16 18:40:21,361 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/security/ir.model.access.csv
+2026-10-16 18:40:21,854 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/security/payment_security.xml
+2026-10-16 18:40:21,873 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/wizards/payment_capture_wizard_views.xml
+2026-10-16 18:40:21,880 4544 INFO culqi19_fresh odoo.modules.loading: loading payment/wizards/payment_link_wizard_views.xml
+2026-10-16 18:40:21,910 4544 INFO culqi19_fresh odoo.modules.loading: Module payment loaded in 2.54s, 2515 queries (+2515 other)
+2026-10-16 18:40:21,910 4544 INFO culqi19_fresh odoo.modules.loading: Loading module spreadsheet (42/57)
+2026-10-16 18:40:21,921 4544 INFO culqi19_fresh odoo.registry: module spreadsheet: creating or updating database tables
+2026-10-16 18:40:21,968 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet/views/public_readonly_spreadsheet_templates.xml
+2026-10-16 18:40:21,988 4544 INFO culqi19_fresh odoo.modules.loading: Module spreadsheet loaded in 0.08s, 93 queries (+93 other)
+2026-10-16 18:40:21,988 4544 INFO culqi19_fresh odoo.modules.loading: Loading module account (43/57)
+2026-10-16 18:40:22,120 4544 INFO culqi19_fresh odoo.registry: module account: creating or updating database tables
+2026-10-16 18:40:22,219 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.domestic_fiscal_position_id
+2026-10-16 18:40:22,219 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.account_fiscal_country_id
+2026-10-16 18:40:22,219 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.invoice_terms_html
+2026-10-16 18:40:22,219 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.company.account_storno
+2026-10-16 18:40:23,633 4544 INFO culqi19_fresh odoo.modules.loading: loading account/security/account_security.xml
+2026-10-16 18:40:23,831 4544 INFO culqi19_fresh odoo.modules.loading: loading account/security/ir.model.access.csv
+2026-10-16 18:40:23,876 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/account_data.xml
+2026-10-16 18:40:23,944 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/digest_data.xml
+2026-10-16 18:40:23,951 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_report.xml
+2026-10-16 18:40:23,968 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/mail_template_data.xml
+2026-10-16 18:40:24,003 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/onboarding_data.xml
+2026-10-16 18:40:24,024 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/account_tour.xml
+2026-10-16 18:40:24,028 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/ir_sequence.xml
+2026-10-16 18:40:24,031 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/res_country_group.xml
+2026-10-16 18:40:24,048 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_payment_view.xml
+2026-10-16 18:40:24,132 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_automatic_entry_wizard_views.xml
+2026-10-16 18:40:24,146 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_autopost_bills_wizard.xml
+2026-10-16 18:40:24,156 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_unreconcile_view.xml
+2026-10-16 18:40:24,171 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_move_reversal_view.xml
+2026-10-16 18:40:24,185 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_resequence_views.xml
+2026-10-16 18:40:24,198 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_payment_register_views.xml
+2026-10-16 18:40:24,211 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_move_views.xml
+2026-10-16 18:40:24,732 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/setup_wizards_view.xml
+2026-10-16 18:40:24,751 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_account_views.xml
+2026-10-16 18:40:24,780 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_group_views.xml
+2026-10-16 18:40:24,793 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_journal_views.xml
+2026-10-16 18:40:24,833 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_account_tag_views.xml
+2026-10-16 18:40:24,847 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_bank_statement_views.xml
+2026-10-16 18:40:24,871 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_reconcile_model_views.xml
+2026-10-16 18:40:24,890 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_tax_views.xml
+2026-10-16 18:40:24,956 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_full_reconcile_views.xml
+2026-10-16 18:40:24,968 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_payment_term_views.xml
+2026-10-16 18:40:24,991 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_payment_method.xml
+2026-10-16 18:40:24,998 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/res_partner_bank_views.xml
+2026-10-16 18:40:25,016 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/report_statement.xml
+2026-10-16 18:40:25,027 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/terms_template.xml
+2026-10-16 18:40:25,038 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_validate_move_view.xml
+2026-10-16 18:40:25,055 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/res_company_views.xml
+2026-10-16 18:40:25,076 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/product_view.xml
+2026-10-16 18:40:25,118 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_analytic_plan_views.xml
+2026-10-16 18:40:25,128 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_analytic_account_views.xml
+2026-10-16 18:40:25,143 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_analytic_distribution_model_views.xml
+2026-10-16 18:40:25,157 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_analytic_line_views.xml
+2026-10-16 18:40:25,186 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/report_invoice.xml
+2026-10-16 18:40:25,219 4544 INFO culqi19_fresh odoo.modules.loading: loading account/report/account_invoice_report_view.xml
+2026-10-16 18:40:25,264 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_cash_rounding_view.xml
+2026-10-16 18:40:25,278 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/ir_actions_views.xml
+2026-10-16 18:40:25,286 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/ir_module_views.xml
+2026-10-16 18:40:25,295 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/base_document_layout_views.xml
+2026-10-16 18:40:25,305 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/res_config_settings_views.xml
+2026-10-16 18:40:25,339 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/partner_view.xml
+2026-10-16 18:40:25,399 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_journal_dashboard_view.xml
+2026-10-16 18:40:25,413 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_portal_templates.xml
+2026-10-16 18:40:25,456 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/report_payment_receipt_templates.xml
+2026-10-16 18:40:25,464 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/service_cron.xml
+2026-10-16 18:40:25,489 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_incoterms_view.xml
+2026-10-16 18:40:25,503 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/account_incoterms_data.xml
+2026-10-16 18:40:25,516 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/digest_views.xml
+2026-10-16 18:40:25,525 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_move_send_wizard.xml
+2026-10-16 18:40:25,532 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_move_send_batch_wizard.xml
+2026-10-16 18:40:25,537 4544 INFO culqi19_fresh odoo.modules.loading: loading account/report/account_hash_integrity_templates.xml
+2026-10-16 18:40:25,542 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/res_currency.xml
+2026-10-16 18:40:25,551 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/res_country_group_view.xml
+2026-10-16 18:40:25,558 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_menuitem.xml
+2026-10-16 18:40:25,666 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_secure_entries_wizard.xml
+2026-10-16 18:40:25,679 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/mail_message_views.xml
+2026-10-16 18:40:25,695 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/accrued_orders.xml
+2026-10-16 18:40:25,702 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/bill_preview_template.xml
+2026-10-16 18:40:25,708 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/account_reports_data.xml
+2026-10-16 18:40:25,739 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/uom_uom_views.xml
+2026-10-16 18:40:25,757 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/product_views.xml
+2026-10-16 18:40:25,771 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/tests_shared_js_python.xml
+2026-10-16 18:40:25,775 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/account_lock_exception_views.xml
+2026-10-16 18:40:25,782 4544 INFO culqi19_fresh odoo.modules.loading: loading account/views/report_templates.xml
+2026-10-16 18:40:25,799 4544 INFO culqi19_fresh odoo.modules.loading: loading account/wizard/account_merge_wizard_views.xml
+2026-10-16 18:40:25,811 4544 INFO culqi19_fresh odoo.modules.loading: loading account/data/ir_config_parameter_data.xml
+2026-10-16 18:40:25,976 4544 INFO culqi19_fresh odoo.modules.loading: Module account loaded in 3.99s, 5804 queries (+5804 other)
+2026-10-16 18:40:25,976 4544 INFO culqi19_fresh odoo.modules.loading: Loading module spreadsheet_dashboard (44/57)
+2026-10-16 18:40:25,991 4544 INFO culqi19_fresh odoo.registry: module spreadsheet_dashboard: creating or updating database tables
+2026-10-16 18:40:26,094 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard/security/security.xml
+2026-10-16 18:40:26,140 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard/security/ir.model.access.csv
+2026-10-16 18:40:26,148 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard/views/spreadsheet_dashboard_views.xml
+2026-10-16 18:40:26,167 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard/views/menu_views.xml
+2026-10-16 18:40:26,187 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard/data/dashboard.xml
+2026-10-16 18:40:26,212 4544 INFO culqi19_fresh odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.24s, 313 queries (+313 other)
+2026-10-16 18:40:26,212 4544 INFO culqi19_fresh odoo.modules.loading: Loading module account_add_gln (45/57)
+2026-10-16 18:40:26,229 4544 INFO culqi19_fresh odoo.registry: module account_add_gln: creating or updating database tables
+2026-10-16 18:40:26,301 4544 INFO culqi19_fresh odoo.modules.loading: loading account_add_gln/views/res_partner_views.xml
+2026-10-16 18:40:26,328 4544 INFO culqi19_fresh odoo.modules.loading: Module account_add_gln loaded in 0.12s, 102 queries (+102 other)
+2026-10-16 18:40:26,328 4544 INFO culqi19_fresh odoo.modules.loading: Loading module account_edi_ubl_cii (46/57)
+2026-10-16 18:40:26,385 4544 INFO culqi19_fresh odoo.registry: module account_edi_ubl_cii: creating or updating database tables
+2026-10-16 18:40:26,407 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.peppol_endpoint
+2026-10-16 18:40:26,407 4544 INFO culqi19_fresh odoo.models: Prepare computation of res.partner.peppol_eas
+2026-10-16 18:40:26,555 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/data/cii_22_templates.xml
+2026-10-16 18:40:26,576 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/data/ir_config_parameter_data.xml
+2026-10-16 18:40:26,579 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/views/account_tax_views.xml
+2026-10-16 18:40:26,592 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/views/account_move_views.xml
+2026-10-16 18:40:26,609 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/views/res_partner_views.xml
+2026-10-16 18:40:26,625 4544 INFO culqi19_fresh odoo.modules.loading: loading account_edi_ubl_cii/report/account_edi_ubl_cii_report_templates.xml
+2026-10-16 18:40:26,717 4544 INFO culqi19_fresh odoo.modules.loading: Module account_edi_ubl_cii loaded in 0.39s, 385 queries (+385 other)
+2026-10-16 18:40:26,717 4544 INFO culqi19_fresh odoo.modules.loading: Loading module account_payment (47/57)
+2026-10-16 18:40:26,748 4544 INFO culqi19_fresh odoo.registry: module account_payment: creating or updating database tables
+2026-10-16 18:40:26,918 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/data/ir_config_parameter.xml
+2026-10-16 18:40:26,922 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/security/ir.model.access.csv
+2026-10-16 18:40:26,928 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/security/ir_rules.xml
+2026-10-16 18:40:26,934 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/account_payment_menus.xml
+2026-10-16 18:40:26,947 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/account_portal_templates.xml
+2026-10-16 18:40:26,993 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/account_move_views.xml
+2026-10-16 18:40:27,012 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/account_journal_views.xml
+2026-10-16 18:40:27,026 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/account_payment_views.xml
+2026-10-16 18:40:27,036 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/payment_form_templates.xml
+2026-10-16 18:40:27,041 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/payment_provider_views.xml
+2026-10-16 18:40:27,048 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/views/payment_transaction_views.xml
+2026-10-16 18:40:27,055 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/wizards/account_payment_register_views.xml
+2026-10-16 18:40:27,062 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/wizards/payment_link_wizard_views.xml
+2026-10-16 18:40:27,072 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/wizards/payment_refund_wizard_views.xml
+2026-10-16 18:40:27,077 4544 INFO culqi19_fresh odoo.modules.loading: loading account_payment/wizards/res_config_settings_views.xml
+2026-10-16 18:40:27,116 4544 INFO culqi19_fresh odoo.modules.loading: Module account_payment loaded in 0.40s, 566 queries (+566 other)
+2026-10-16 18:40:27,116 4544 INFO culqi19_fresh odoo.modules.loading: Loading module snailmail_account (48/57)
+2026-10-16 18:40:27,145 4544 INFO culqi19_fresh odoo.registry: module snailmail_account: creating or updating database tables
+2026-10-16 18:40:27,253 4544 INFO culqi19_fresh odoo.modules.loading: loading snailmail_account/views/res_config_settings_views.xml
+2026-10-16 18:40:27,286 4544 INFO culqi19_fresh odoo.modules.loading: Module snailmail_account loaded in 0.17s, 196 queries (+196 other)
+2026-10-16 18:40:27,286 4544 INFO culqi19_fresh odoo.modules.loading: Loading module spreadsheet_account (49/57)
+2026-10-16 18:40:27,302 4544 INFO culqi19_fresh odoo.registry: module spreadsheet_account: creating or updating database tables
+2026-10-16 18:40:27,362 4544 INFO culqi19_fresh odoo.modules.loading: Module spreadsheet_account loaded in 0.08s, 58 queries (+58 other)
+2026-10-16 18:40:27,362 4544 INFO culqi19_fresh odoo.modules.loading: Loading module spreadsheet_dashboard_account (50/57)
+2026-10-16 18:40:27,376 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard_account/data/dashboards.xml
+2026-10-16 18:40:27,423 4544 INFO culqi19_fresh odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.06s, 38 queries (+38 other)
+2026-10-16 18:40:27,423 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sale (51/57)
+2026-10-16 18:40:27,475 4544 INFO culqi19_fresh odoo.registry: module sale: creating or updating database tables
+2026-10-16 18:40:27,933 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/security/ir.model.access.csv
+2026-10-16 18:40:27,954 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/security/res_groups.xml
+2026-10-16 18:40:27,961 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/security/ir_rules.xml
+2026-10-16 18:40:28,062 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/report/account_invoice_report_views.xml
+2026-10-16 18:40:28,089 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/report/ir_actions_report_templates.xml
+2026-10-16 18:40:28,116 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/report/ir_actions_report.xml
+2026-10-16 18:40:28,122 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/report/sale_report_views.xml
+2026-10-16 18:40:28,155 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/ir_cron.xml
+2026-10-16 18:40:28,183 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/ir_sequence_data.xml
+2026-10-16 18:40:28,186 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/mail_message_subtype_data.xml
+2026-10-16 18:40:28,197 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/mail_template_data.xml
+2026-10-16 18:40:28,214 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/sale_tour.xml
+2026-10-16 18:40:28,217 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/data/ir_config_parameter.xml
+2026-10-16 18:40:28,224 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/account_accrued_orders_wizard_views.xml
+2026-10-16 18:40:28,229 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/mass_cancel_orders_views.xml
+2026-10-16 18:40:28,237 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/payment_link_wizard_views.xml
+2026-10-16 18:40:28,247 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/res_config_settings_views.xml
+2026-10-16 18:40:28,296 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/sale_make_invoice_advance_views.xml
+2026-10-16 18:40:28,305 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/wizard/sale_order_discount_views.xml
+2026-10-16 18:40:28,311 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/sale_order_views.xml
+2026-10-16 18:40:28,453 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/account_views.xml
+2026-10-16 18:40:28,500 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/crm_team_views.xml
+2026-10-16 18:40:28,527 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/mail_activity_views.xml
+2026-10-16 18:40:28,530 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/mail_activity_plan_views.xml
+2026-10-16 18:40:28,534 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/payment_views.xml
+2026-10-16 18:40:28,553 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/product_document_views.xml
+2026-10-16 18:40:28,577 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/product_pricelist_item_views.xml
+2026-10-16 18:40:28,590 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/product_template_views.xml
+2026-10-16 18:40:28,609 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/product_views.xml
+2026-10-16 18:40:28,654 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/res_partner_views.xml
+2026-10-16 18:40:28,694 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/sale_order_line_views.xml
+2026-10-16 18:40:28,710 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/sale_portal_templates.xml
+2026-10-16 18:40:28,765 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/utm_campaign_views.xml
+2026-10-16 18:40:28,778 4544 INFO culqi19_fresh odoo.modules.loading: loading sale/views/sale_menus.xml
+2026-10-16 18:40:28,989 4544 INFO culqi19_fresh odoo.modules.loading: Module sale loaded in 1.57s, 2506 queries (+2506 other)
+2026-10-16 18:40:28,989 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sale_edi_ubl (52/57)
+2026-10-16 18:40:29,002 4544 INFO culqi19_fresh odoo.registry: module sale_edi_ubl: creating or updating database tables
+2026-10-16 18:40:29,077 4544 INFO culqi19_fresh odoo.modules.loading: Module sale_edi_ubl loaded in 0.09s, 88 queries (+88 other)
+2026-10-16 18:40:29,077 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sale_management (53/57)
+2026-10-16 18:40:29,103 4544 INFO culqi19_fresh odoo.registry: module sale_management: creating or updating database tables
+2026-10-16 18:40:29,224 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/data/digest_data.xml
+2026-10-16 18:40:29,232 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/security/ir.model.access.csv
+2026-10-16 18:40:29,239 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/security/sale_management_security.xml
+2026-10-16 18:40:29,252 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/sale_order_template_views.xml
+2026-10-16 18:40:29,274 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/digest_views.xml
+2026-10-16 18:40:29,285 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/res_config_settings_views.xml
+2026-10-16 18:40:29,303 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/sale_order_views.xml
+2026-10-16 18:40:29,317 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/sale_portal_templates.xml
+2026-10-16 18:40:29,326 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_management/views/sale_management_menus.xml
+2026-10-16 18:40:29,350 4544 INFO culqi19_fresh odoo.modules.loading: Module sale_management loaded in 0.27s, 369 queries (+369 other)
+2026-10-16 18:40:29,351 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sale_sms (54/57)
+2026-10-16 18:40:29,365 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_sms/security/ir.model.access.csv
+2026-10-16 18:40:29,387 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_sms/security/security.xml
+2026-10-16 18:40:29,401 4544 INFO culqi19_fresh odoo.modules.loading: Module sale_sms loaded in 0.05s, 38 queries (+38 other)
+2026-10-16 18:40:29,402 4544 INFO culqi19_fresh odoo.modules.loading: Loading module spreadsheet_dashboard_sale (55/57)
+2026-10-16 18:40:29,415 4544 INFO culqi19_fresh odoo.modules.loading: loading spreadsheet_dashboard_sale/data/dashboards.xml
+2026-10-16 18:40:29,467 4544 INFO culqi19_fresh odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.07s, 47 queries (+47 other)
+2026-10-16 18:40:29,467 4544 INFO culqi19_fresh odoo.modules.loading: Loading module alvina_culqi_payment (56/57)
+2026-10-16 18:40:29,481 4544 INFO culqi19_fresh odoo.registry: module alvina_culqi_payment: creating or updating database tables
+2026-10-16 18:40:29,503 4544 WARNING culqi19_fresh odoo.addons.base.models.ir_model: Two fields (culqi_request_id, culqi_request_ids) of sale.order() have the same label: Culqi Request. [Modules: alvina_culqi_payment and alvina_culqi_payment]
+2026-10-16 18:40:29,594 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/security/ir.model.access.csv
+2026-10-16 18:40:29,601 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/security/culqi_link_request_security.xml
+2026-10-16 18:40:29,613 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/views/payment_provider_views.xml
+2026-10-16 18:40:29,627 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/views/sale_order_views.xml
+2026-10-16 18:40:29,644 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/data/payment_provider_data.xml
+2026-10-16 18:40:29,653 4544 INFO culqi19_fresh odoo.modules.loading: loading alvina_culqi_payment/data/culqi_link_request_cron.xml
+2026-10-16 18:40:29,697 4544 INFO culqi19_fresh odoo.modules.loading: Module alvina_culqi_payment loaded in 0.23s, 306 queries (+306 other)
+2026-10-16 18:40:29,697 4544 INFO culqi19_fresh odoo.modules.loading: Loading module sale_pdf_quote_builder (57/57)
+2026-10-16 18:40:29,714 4544 INFO culqi19_fresh odoo.registry: module sale_pdf_quote_builder: creating or updating database tables
+2026-10-16 18:40:29,737 4544 WARNING culqi19_fresh odoo.addons.base.models.ir_model: Two fields (culqi_request_id, culqi_request_ids) of sale.order() have the same label: Culqi Request. [Modules: alvina_culqi_payment and alvina_culqi_payment]
+2026-10-16 18:40:29,829 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/data/ir_cron.xml
+2026-10-16 18:40:29,857 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/data/sale_pdf_form_field.xml
+2026-10-16 18:40:29,862 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/report/ir_actions_report.xml
+2026-10-16 18:40:29,867 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/security/ir.model.access.csv
+2026-10-16 18:40:29,881 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/security/ir_rules.xml
+2026-10-16 18:40:29,888 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/product_document_views.xml
+2026-10-16 18:40:29,901 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/quotation_document_views.xml
+2026-10-16 18:40:29,920 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_template_views.xml
+2026-10-16 18:40:29,929 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_order_views.xml
+2026-10-16 18:40:29,943 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_form_field_views.xml
+2026-10-16 18:40:29,953 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/views/sale_pdf_quote_builder_menus.xml
+2026-10-16 18:40:29,957 4544 INFO culqi19_fresh odoo.modules.loading: loading sale_pdf_quote_builder/wizards/res_config_settings_views.xml
+2026-10-16 18:40:29,993 4544 INFO culqi19_fresh odoo.modules.loading: Module sale_pdf_quote_builder loaded in 0.30s, 407 queries (+407 other)
+2026-10-16 18:40:29,993 4544 INFO culqi19_fresh odoo.modules.loading: 57 modules loaded in 21.75s, 34886 queries (+34887 extra)
+2026-10-16 18:40:30,574 4544 INFO culqi19_fresh odoo.modules.loading: Modules loaded.
+2026-10-16 18:40:31,337 4544 INFO culqi19_fresh odoo.registry: Registry changed, signaling through the database
+2026-10-16 18:40:31,338 4544 INFO culqi19_fresh odoo.registry: Registry loaded in 29.459s
+2026-10-16 18:40:31,338 4544 INFO culqi19_fresh odoo.service.server: Starting post tests
+2026-10-16 18:40:33,592 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_amount_and_company_mismatch ...
+2026-10-16 18:40:33,594 4544 INFO culqi19_fresh odoo.addons.phone_validation.tools.phone_validation: The `phonenumbers` Python module is not installed, contact numbers will not be verified. Please install the `phonenumbers` Python module.
+2026-10-16 18:40:33,628 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_binding_cannot_be_shared_between_companies ...
+2026-10-16 18:40:33,829 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_duplicate_confirmation_calls_postprocess_once ...
+2026-10-16 18:40:33,872 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_invoice_reconciled_by_native_accounting ...
+2026-10-16 18:40:34,315 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_native_payment_is_posted_once ...
+2026-10-16 18:40:34,495 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_rejected_payment ...
+2026-10-16 18:40:34,531 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_release_gate ...
+2026-10-16 18:40:34,549 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_release_gate_also_blocks_background_work ...
+2026-10-16 18:40:34,555 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_timeout_and_credentials ...
+2026-10-16 18:40:34,584 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_payment: Starting TestCulqiPayment.test_verified_success_can_recover_error ...
+2026-10-16 18:40:34,772 4544 INFO culqi19_fresh odoo.addons.base.models.ir_attachment: filestore gc 439 checked, 3 removed
+2026-10-16 18:40:36,650 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_changed_balance_blocks_before_post ...
+2026-10-16 18:40:36,765 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_interrupted_attempt_is_never_resubmitted ...
+2026-10-16 18:40:36,839 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_sales_user_queues_without_payment_model_write_access ...
+2026-10-16 18:40:36,911 4544 INFO culqi19_fresh odoo.addons.base.models.ir_model: Access Denied by ACLs for operation: write, uid: 13, model: alvina.culqi.link.request
+2026-10-16 18:40:36,914 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_second_request_for_same_order_rejected ...
+2026-10-16 18:40:36,989 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_timeout_is_uncertain_without_retry ...
+2026-10-16 18:40:37,078 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_valid_link_saved_and_shareable ...
+2026-10-16 18:40:37,171 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_worker_cannot_run_in_http_context ...
+2026-10-16 18:40:37,174 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_queue: Starting TestCulqiQueue.test_zero_and_negative_amounts_rejected ...
+2026-10-16 18:40:37,281 4544 INFO culqi19_fresh odoo.addons.base.models.ir_attachment: filestore gc 4 checked, 4 removed
+2026-10-16 18:40:37,571 4544 INFO culqi19_fresh odoo.addons.auth_signup.models.res_users: Signup email sent for user <culqi_restricted_sales> to <c.c@example.com>
+2026-10-16 18:40:37,580 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiSecurity.test_cross_company_order_cannot_queue_a_request ...
+2026-10-16 18:40:37,677 4544 INFO culqi19_fresh odoo.addons.base.models.ir_rule: Access Denied by record rules for operation: write on record ids: [9], uid: 14, model: sale.order
+2026-10-16 18:40:37,686 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiSecurity.test_sales_user_cannot_read_binding_or_check_credentials ...
+2026-10-16 18:40:37,691 4544 INFO culqi19_fresh odoo.models: Access Denied by ACLs for operation: read, uid: 14, model: payment.provider, field: culqi_credential_env
+2026-10-16 18:40:37,699 4544 INFO culqi19_fresh odoo.addons.base.models.ir_attachment: filestore gc 1 checked, 1 removed
+2026-10-16 18:40:37,700 4544 INFO culqi19_fresh odoo.addons.alvina_culqi_payment.tests.test_security: Starting TestCulqiConcurrentAccounting.test_two_cursors_create_one_posted_payment ...
+2026-10-16 18:40:37,907 4544 ERROR ? odoo.sql_db: bad query: b'SELECT id FROM payment_transaction WHERE id = 14 FOR UPDATE'
+ERROR: could not serialize access due to concurrent update
+
+2026-10-16 18:40:37,960 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.move.line records with IDs: [13, 14]
+2026-10-16 18:40:37,987 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.move records with IDs: [7]
+2026-10-16 18:40:38,000 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.payment records with IDs: [4]
+2026-10-16 18:40:38,005 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted payment.transaction records with IDs: [14]
+2026-10-16 18:40:38,010 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted payment.provider records with IDs: [36]
+2026-10-16 18:40:38,017 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.payment.method.line records with IDs: [19, 20, 21]
+2026-10-16 18:40:38,036 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.journal records with IDs: [25]
+2026-10-16 18:40:38,054 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted res.partner records with IDs: [29]
+2026-10-16 18:40:38,068 4544 INFO culqi19_fresh odoo.models.unlink: User #1 deleted account.account records with IDs: [170, 171, 172]
+2026-10-16 18:40:38,074 4544 INFO culqi19_fresh odoo.addons.base.models.ir_attachment: filestore gc 0 checked, 0 removed
+2026-10-16 18:40:38,074 4544 INFO culqi19_fresh odoo.service.server: 21 post-tests in 6.74s, 8532 queries
+2026-10-16 18:40:38,074 4544 INFO culqi19_fresh odoo.tests.stats: alvina_culqi_payment: 29 tests 6.66s 8532 queries
+2026-10-16 18:40:38,074 4544 INFO culqi19_fresh odoo.tests.result: 0 failed, 0 error(s) of 21 tests when loading database 'culqi19_fresh'
+2026-10-16 18:40:38,074 4544 INFO culqi19_fresh odoo.service.server: Initiating shutdown
+2026-10-16 18:40:38,075 4544 INFO culqi19_fresh odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown.
+2026-10-16 18:40:38,454 4544 INFO culqi19_fresh odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 3 connections
